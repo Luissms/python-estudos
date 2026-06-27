@@ -16,4 +16,4 @@ print(frase[0]) # C se eu fizer frase[0] = 'J' vai dar erro pois é imutável.
 print('Curso' in frase) # True
 print(frase.find('Vídeo')) # 9
 print(frase.lower().find('vídeo')) # com a letra minúscula não vai achar, mas se eu colocar tudo em minúsculo vai achar.
-print(frase.split()) # ['Curso', 'em', 'Vídeo', 'Python'] se eu quiser eu posso colocar dentro de uma variável e depois print na variável com [0] vai aparecer somente Curso.
+print(frase.split()) # ['Curso', 'em', 'Vídeo', 'Python'] se eu quiser eu posso colocar dentro de uma variável e depois print na variável com [0] vai aparecer somente Curso. O join junta tudo de novo.
