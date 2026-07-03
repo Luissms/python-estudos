@@ -21,10 +21,10 @@ class Gafanhoto:
     
 
 # Declaração de Objetos
-g1 = Gafanhoto() # Instância da Classe Gafanhoto
+g1 = Gafanhoto() # Instância da Classe Gafanhoto >> Momento de instanciação
 g1.nome = "Maria" 
-g1.idade = 17
-g1.aniversario() # Chama o método para incrementar a idade
+g1.idade = 17 # Atributo
+g1.aniversario() # Chama o método para incrementar a idade, método.
 print(g1.mensagem())
 
 g2 = Gafanhoto() # Outra Instância da Classe Gafanhoto
