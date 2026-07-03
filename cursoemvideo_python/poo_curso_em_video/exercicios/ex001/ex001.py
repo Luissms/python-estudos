@@ -1,8 +1,7 @@
 """
-Classe é um molde, um projeto de algo que queremos construir.
-Ela é um modelo para criar objetos. Atributos são as características do objeto,
+Classe é um molde, um projeto de algo que queremos construir. O objeto é uma instância de uma classe. Ela é um modelo para criar objetos. Atributos são as características do objeto,
 e métodos são as ações que o objeto pode realizar. Instância é um objeto criado a partir 
-de uma classe, ou seja, é uma ocorrência específica da classe.
+de uma classe, ou seja, é uma ocorrência específica da classe. Coisa material ou abstrata que é feita a partir de um modelo e pode ser descrita por meio de suas características, comportamentos e estado atual.
 
 """
 # Declaração de Classe
