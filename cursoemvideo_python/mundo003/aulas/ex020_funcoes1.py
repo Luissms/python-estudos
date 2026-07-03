@@ -42,7 +42,7 @@ contador(8, 0) # (8, 0)
 
 def contador(* núm):
     for valor in núm:
-    print(f'{valor} ', end='')
+        print(f'{valor} ', end='')
 print('FIM')
 
 contador(2, 1, 7) # 2 1 7 FIM
