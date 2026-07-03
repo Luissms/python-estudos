@@ -36,7 +36,7 @@ def teste():
 n = 2 # Escopo global
 print(f'Na função teste, n vale {n}.')
 teste()
-print(f'Na função teste, x vale {x}.') # X tem escopo local, por isso não vai funcionar.
+# print(f'Na função teste, x vale {x}.') # X tem escopo local, por isso não vai funcionar.
 
 
 def funcao():
