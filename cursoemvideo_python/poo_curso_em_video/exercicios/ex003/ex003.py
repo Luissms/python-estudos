@@ -1,7 +1,6 @@
 class ContaBancaria:
     """
     Cria uma conta bancária e permite fazer saques e depósitos.
-
     """
     def __init__(self, id, nome, saldo=0):
         self.id = id
@@ -24,7 +23,7 @@ class ContaBancaria:
             print(f"Saque de R${valor:.2f} realizado com sucesso. Novo saldo: R${self.saldo:.2f}")
 
 
-c1 = ContaBancaria(id=112, nome="Gustavo", saldo=3000)
+c1 = ContaBancaria(id=112, nome="Fernando", saldo=3000)
 c1.depositar(500)
 c1.sacar(2_000_000)
 print(c1)
