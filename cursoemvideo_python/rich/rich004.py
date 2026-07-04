@@ -30,4 +30,6 @@ class ContaBancaria:
 
 
 c = ContaBancaria(id=112, nome="Gustavo", saldo=3000)
+#print(c.__getstate__())
 inspect(c)
+
